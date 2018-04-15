@@ -1,50 +1,33 @@
+#include <vector>
 #include <iostream>
 
 using namespace std;
-
-bool untilkthplacepresent(int array[], int n, int k) {
-  int counter = 0;
-
-  for (int a = 0; a < n; a++) {
-    if (array[a] > array[a+1]) {
-      counter++;
-    }
-  }
-
-  if (counter >= k) {
-    return false;
-  } else {
-    return true;
-  }
-}
 
 int main() {
   int n, k;
   cin >> n >> k;
 
-  int array[n];
+  int a[n];
 
-  for (int i = 0; i < n; i++) {
+  vector<int> v;
+
+  for (int j = 0; j < n; j++) {
     int e;
     cin >> e;
-    array[i] = e;
+    a[j] = e;
   }
 
-  // 1.
-  if (untilkthplacepresent(array, n, k)) {
-    cout << 0 << "\n";
-    return 0;
-  }
+  int value_for_kth_place = a[k -1];
+  //cout << "value for kth place: " << value_for_kth_place << "\n";
+  
 
-  // 2.
-  int kth = k + 1;
-  int out = k;
-
-  for (int j = kth; j < n; j++) {
-    if (array[j] == array[j+1]) {
-      out++;
+  for (int i = 0; i < n; i++) {
+    if (a[i] > 0 && a[i] >= value_for_kth_place) {
+      v.push_back(a[i]);
     }
   }
 
-  cout << out << "\n";
+  cout << v.size() << "\n";
+
+  return 0;
 }
