@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
@@ -14,12 +15,18 @@ int main() {
 
     c = A[4]+A[3]+(A[2]/2);
 
+    int d = max(A[1] - A[3], 0);
+    // A[1] > A[3] = A[1] - A[3]
+    // A[1] < A[3] = 0
+    // A[1] = A[3] = 0
+
+
     if (A[1] < A[3] || A[1] == A[3]) {
         c += A[2]%2;
         cout << c << "\n";
 
     }  else {
-        int sum = (A[2]%2) * 2 + (A[1] - A[3]);
+        int sum = 2*A[2]%2 + (A[1]-A[3]);
         c += sum/4;
         if (sum%4 != 0) {
             c++;
