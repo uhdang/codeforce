@@ -7,7 +7,7 @@ int main() {
     int n;
     cin >> n;
     int c[n];
-    int sum = 0, sorted_sum = 0, iterate = n;
+    float sum = 0, sorted_sum = 0, iterate = n;
 
     for (int i = 0; i < n; i++) {
         cin >> c[i];
@@ -19,9 +19,9 @@ int main() {
     for (int j = 0; j < n; j++) {
         sorted_sum += c[j];
         if (sorted_sum > sum/2) {
-            iterate = j;
+            iterate = j + 1;
             break;
         }
     }
-    cout << iterate + 1 << "\n";
+    cout << iterate << "\n";
 }
