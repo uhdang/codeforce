@@ -12,5 +12,6 @@ int main() {
        b += y;
        c += z;
    }
-   cout << (a|b|c?"NO\n":"YES\n");
+   //cout << (a|b|c?"NO\n":"YES\n");
+   cout << (a || b || c ? "NO\n" : "YES\n");
 }
