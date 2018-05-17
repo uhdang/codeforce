@@ -3,30 +3,26 @@
 using namespace std;
 
 int main() {
-    bool b = false, g = false;;
     int n, t;
-    string s, o = "";
+    string s, a;
+    bool b = false;
     cin >> n >> t >> s;
     for (int j = 0; j < t; j++) {
-
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < s.length(); i++) {
             if (s[i] == 'B') {
                 b = true;
             }
             if (b == true && s[i] == 'G') {
-                g = true;
-            }
-            if (b == true && g == true) {
-                o.pop_back();
-                o += "GB";
+                a.pop_back();
+                a += "GB";
                 b = false;
-                g = false;
             } else {
-                o += s[i];
+                a += s[i];
             }
         }
-        s = o;
-        o = "";
+        b = false;
+        s = a;
+        a = "";
     }
     cout << s << "\n";
 }
