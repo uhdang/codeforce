@@ -3,8 +3,7 @@
 using namespace std;
 
 int main() {
-    int n;
+    unsigned long long int n;
     cin >> n;
-    cout << n/2 << "\n";
-    cout << (n%2==0 ? n/2 : n/2-n) << "\n";
+    cout << (n % 2 == 0 ? n/2 : n/2-n) << "\n";
 }
