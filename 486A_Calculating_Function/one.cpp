@@ -3,11 +3,13 @@
 using namespace std;
 
 int main() {
-    int n, sum = 0, p_m = 1;
+    int n, sum = 0, p_m = 1, c = 0;
     cin >> n;
-    for (int i = 1; i <= n; i++) {
+    while (c < n) {
+        c++;
         p_m = p_m * -1;
-        sum += p_m * i;
+        sum += p_m * c;
     }
-    cout << sum << "\n";
+    cout << sum;
+    return 0;
 }
