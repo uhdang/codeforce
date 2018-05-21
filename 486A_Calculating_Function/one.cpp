@@ -3,13 +3,8 @@
 using namespace std;
 
 int main() {
-    int n, sum = 0, p_m = 1, c = 0;
+    int n;
     cin >> n;
-    while (c < n) {
-        c++;
-        p_m = p_m * -1;
-        sum += p_m * c;
-    }
-    cout << sum;
-    return 0;
+    cout << n/2 << "\n";
+    cout << (n%2==0 ? n/2 : n/2-n) << "\n";
 }
