@@ -5,6 +5,5 @@ using namespace std;
 int main() {
     int x;
     cin >> x;
-    cout << (x%5 == 0 ? x/5 : x/5+1) << "\n";
-
+    cout << (x+4)/5 << "\n";
 }
