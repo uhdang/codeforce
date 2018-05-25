@@ -4,6 +4,9 @@
 using namespace std;
 
 int main() {
+
+    // Use Math !
+
     unsigned long long int n, k, inc = 1;
     vector<unsigned long long int>v;
     cin >> n >> k;
