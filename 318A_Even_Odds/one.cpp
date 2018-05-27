@@ -6,6 +6,7 @@ using namespace std;
 int main() {
 
     // Use Math !
+    // 1. difference case for odd + even number n
 
     unsigned long long int n, k, inc = 1;
     vector<unsigned long long int>v;
