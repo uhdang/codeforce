@@ -22,7 +22,6 @@ int main() {
 
 
 
-
 // Use Math !
 //
 // when n%2 == 0
