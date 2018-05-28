@@ -10,11 +10,11 @@ int main() {
     bool count_odd = (k <= half ? true : false);
     k = (k <= half ? k : k-ceil(n/2));
 
+    if (count_odd == 0) {
+        inc++;
+    }
+
     for (int i = 1; i < k; i++) {
-        if (count_odd == 0) {
-            inc++;
-            count_odd = 1;
-        }
         inc += 2;
     }
     cout << inc << "\n";
