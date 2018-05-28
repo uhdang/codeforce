@@ -13,11 +13,7 @@ int main() {
     if (count_odd == 0) {
         inc++;
     }
-
-    for (int i = 1; i < k; i++) {
-        inc += 2;
-    }
-    cout << inc << "\n";
+    cout << inc + (2*(k-1)) << "\n";
 }
 
 
