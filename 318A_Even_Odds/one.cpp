@@ -8,16 +8,16 @@ int main() {
     unsigned long long int k, inc = 1;
     cin >> n >> k;
     if(k > ceil(n/2.0)) {
-        k = k - (int)ceil(n/2.0);
+        k = k - ceil(n/2.0);
         inc++;
     }
-    //cout << "round up: " <<  (int)ceil(n/2.0) << "\n";
+    //cout << "round up: " <<  ceil(n/2.0) << "\n";
     //cout << "k: " << k << "\n";
     //cout << "inc: " << inc << "\n";
     //cout << "add: " << 2*(k-1) << "\n";
     cout << inc + 2*(k-1) << "\n";
 }
-
+// 1000000000000 500000000001
 // 999999999997 499999999999
 // Use Math !
 //
