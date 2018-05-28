@@ -4,20 +4,21 @@
 using namespace std;
 
 int main() {
-    double n, k, half, inc = 1;
+    double n;
+    unsigned long long int k, inc = 1;
     cin >> n >> k;
-    half = ceil(n/2.0);
-    bool count_odd = (k <= half ? true : false);
-    k = (k <= half ? k : k-ceil(n/2));
-
-    if (count_odd == 0) {
+    if(k > ceil(n/2.0)) {
+        k = k - (int)ceil(n/2.0);
         inc++;
     }
-    cout << inc + (2*(k-1)) << "\n";
+    //cout << "round up: " <<  (int)ceil(n/2.0) << "\n";
+    //cout << "k: " << k << "\n";
+    //cout << "inc: " << inc << "\n";
+    //cout << "add: " << 2*(k-1) << "\n";
+    cout << inc + 2*(k-1) << "\n";
 }
 
-
-
+// 999999999997 499999999999
 // Use Math !
 //
 // when n%2 == 0
