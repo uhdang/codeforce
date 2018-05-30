@@ -13,13 +13,11 @@
 using namespace std;
 
 int main() {
-    string a, b;
-    string s, o = "";
+    string a, b, o = "";
     cin >> a >> b;
 
     for (int i = 0; i < a.length(); i++) {
         int sum = a[i] + b[i];
-        //cout << "a: " << a[i] << " - b: " << b[i] << " - sum: " << sum << "\n";
         if (sum == 97) {
             o += "1";
         } else {
