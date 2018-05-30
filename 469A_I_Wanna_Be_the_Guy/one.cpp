@@ -4,25 +4,20 @@
 using namespace std;
 
 int main() {
-    int n, p, q;
-    int * o;
-    cin >> n >> p;
+    int n, iterate;
+    cin >> n;
     int array[n] = {0};
-    for (int i = 0; i < n; i++) {
-        cout << "t: " << array[i] << "\n";
+    int * o;
+    for (int i = 0; i < 2; i++) {
+        cin >> iterate;
+        for (int j = 0; j < iterate; j++) {
+            int t;
+            cin >> t;
+            array[t - 1]++;
+        }
     }
-    for (int i = 0; i < p; i++) {
-        int t;
-        cin >> t;
-        array[t]++;
-    } 
-    cin >> q;
-    for (int j = 0; j < q; j++) {
-        int t;
-        cin >> t;
-        array[t]++;
-    }
+
     o = find(array, array+n, 0);
-    cout << o << "\n";
+    cout << (o != array+n ? "Oh, my keyboard!\n" : "I become the guy.\n");
 
 }
