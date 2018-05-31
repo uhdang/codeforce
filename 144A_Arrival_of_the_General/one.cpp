@@ -11,33 +11,18 @@ using namespace std;
 
 int main() {
 
-    int s_v = 100, b_v = 1, s_i, b_i = 0, n, c = 0;
+    int s_i = 0, b_i = 0, n;
     cin >> n;
     int array[n];
     for (int i = 0; i < n; i++) {
-        int input;
-        cin >> input;
-        array[i] = input;
-        if (input <= s_v) {
-            s_v = input;
+        cin >> array[i];
+        if (array[i] <= array[s_i]) {
             s_i = i;
         }
-        if (input > b_v) {
-            b_v = input;
+        if (array[i] > array[b_i]) {
             b_i = i;
         }
     }
-    //cout << b_v << " : " << b_i << "\n";
-    //cout << s_v << " : " << s_i << "\n";
 
-
-
-    c += b_i;
-    c += (n-1)-s_i;
-
-    if (b_i > s_i) {
-        c--;
-    }
-
-    cout << c << "\n";
+    cout << b_i + (n-1) - s_i - (b_i > s_i) << "\n";
 }
