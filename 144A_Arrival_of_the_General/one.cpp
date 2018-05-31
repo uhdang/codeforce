@@ -11,7 +11,7 @@ using namespace std;
 
 int main() {
 
-    int s_v = 100, b_v = 1, s_i, b_i = -1, n, c = 0;
+    int s_v = 100, b_v = 1, s_i, b_i = 0, n, c = 0;
     cin >> n;
     int array[n];
     for (int i = 0; i < n; i++) {
