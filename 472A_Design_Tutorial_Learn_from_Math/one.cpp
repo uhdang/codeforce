@@ -9,7 +9,6 @@ int isPrime (int n) {
             isPrime = false;
             break;
         }
-
     }
     return isPrime;
 }
@@ -17,8 +16,8 @@ int isPrime (int n) {
 int main() {
     int n;
     cin >> n;
-    for (int j = n; j > 3; j--) {
-        for (int i = 3; i < n; i++) {
+    for (int i = 3; i < n-3; i++) {
+        for (int j = n-3; j > 3; j--) {
             if (!isPrime(i) && !isPrime(j) && i + j == n) {
                 cout << i << " " <<  j << "\n";
                 return 0;
