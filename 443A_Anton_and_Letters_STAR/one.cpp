@@ -2,6 +2,7 @@
 // asci a - 97, z - 122
 
 #include <iostream>
+#include <string.h>
 
 using namespace std;
 
@@ -11,7 +12,7 @@ int main() {
     char b[1000] = {0};
     cin.getline(b, sizeof(b));
 
-    for (int i=0; i<(int)sizeof(b); i++) {
+    for (int i=0; i<(int)strlen(b); i++) {
         //cout << i << " : " << b[i]-97 << "\n";
         //cout << "before: " << a[b[i]-97] << "\n";
         //cout << "after: " << a[b[i]-97] << "\n";
