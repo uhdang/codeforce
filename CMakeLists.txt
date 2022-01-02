@@ -78,5 +78,6 @@ add_executable(codeforce
 #        96A_Football_cpp/c_answer.cpp
 #        96A_Football_cpp/main.cpp
 #        155A_I_love_username_cpp/main.cpp
-        750A_New_Year_and_Hurry_cpp/main.cpp
+#        750A_New_Year_and_Hurry_cpp/main.cpp
+        581A_Vasya_the_Hipster_cpp/main.cpp
         )

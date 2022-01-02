@@ -72,11 +72,11 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_codeforce: phony || CMakeFiles/codeforce.dir
 
-build CMakeFiles/codeforce.dir/750A_New_Year_and_Hurry_cpp/main.cpp.o: CXX_COMPILER__codeforce_Debug /Users/jungwoojamesjeong/Projects/codeforce/750A_New_Year_and_Hurry_cpp/main.cpp || cmake_object_order_depends_target_codeforce
-  DEP_FILE = CMakeFiles/codeforce.dir/750A_New_Year_and_Hurry_cpp/main.cpp.o.d
+build CMakeFiles/codeforce.dir/581A_Vasya_the_Hipster_cpp/main.cpp.o: CXX_COMPILER__codeforce_Debug /Users/jungwoojamesjeong/Projects/codeforce/581A_Vasya_the_Hipster_cpp/main.cpp || cmake_object_order_depends_target_codeforce
+  DEP_FILE = CMakeFiles/codeforce.dir/581A_Vasya_the_Hipster_cpp/main.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++17
   OBJECT_DIR = CMakeFiles/codeforce.dir
-  OBJECT_FILE_DIR = CMakeFiles/codeforce.dir/750A_New_Year_and_Hurry_cpp
+  OBJECT_FILE_DIR = CMakeFiles/codeforce.dir/581A_Vasya_the_Hipster_cpp
 
 
 # =============================================================================
@@ -86,7 +86,7 @@ build CMakeFiles/codeforce.dir/750A_New_Year_and_Hurry_cpp/main.cpp.o: CXX_COMPI
 #############################################
 # Link the executable codeforce
 
-build codeforce: CXX_EXECUTABLE_LINKER__codeforce_Debug CMakeFiles/codeforce.dir/750A_New_Year_and_Hurry_cpp/main.cpp.o
+build codeforce: CXX_EXECUTABLE_LINKER__codeforce_Debug CMakeFiles/codeforce.dir/581A_Vasya_the_Hipster_cpp/main.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0
   OBJECT_DIR = CMakeFiles/codeforce.dir
   POST_BUILD = :

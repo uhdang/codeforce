@@ -1,13 +1,10 @@
 # ninja log v5
 2	567	1640905178016620004	CMakeFiles/codeforce.dir/155A_I_love_username_cpp/main.cpp.o	c6e3b172bb8c2704
-568	645	1640905178097111894	codeforce	e56c7527cba3f651
-0	2738	1641083419335422228	CMakeFiles/codeforce.dir/750A_New_Year_and_Hurry_cpp/main.cpp.o	b7d464714c18cac8
-2739	2884	1641083419483453265	codeforce	aca4199bc763d973
-3	598	1641083538902623490	CMakeFiles/codeforce.dir/750A_New_Year_and_Hurry_cpp/main.cpp.o	b7d464714c18cac8
-598	671	1641083538979646660	codeforce	aca4199bc763d973
-3	669	1641083717555842147	CMakeFiles/codeforce.dir/750A_New_Year_and_Hurry_cpp/main.cpp.o	b7d464714c18cac8
-670	752	1641083717640681708	codeforce	aca4199bc763d973
-2	646	1641083891797087559	CMakeFiles/codeforce.dir/750A_New_Year_and_Hurry_cpp/main.cpp.o	b7d464714c18cac8
-646	748	1641083891901490354	codeforce	aca4199bc763d973
-3	609	1641083982368280901	CMakeFiles/codeforce.dir/750A_New_Year_and_Hurry_cpp/main.cpp.o	b7d464714c18cac8
 609	823	1641083982581865123	codeforce	aca4199bc763d973
+3	609	1641083982368280901	CMakeFiles/codeforce.dir/750A_New_Year_and_Hurry_cpp/main.cpp.o	b7d464714c18cac8
+0	530	1641084805980379193	CMakeFiles/codeforce.dir/581A_Vasya_the_Hipster_cpp/main.cpp.o	15e856166e65c2a7
+531	639	1641084806091779257	codeforce	2da00377b22a06ec
+2	469	1641084831789405554	CMakeFiles/codeforce.dir/581A_Vasya_the_Hipster_cpp/main.cpp.o	15e856166e65c2a7
+469	542	1641084831864587920	codeforce	2da00377b22a06ec
+3	625	1641085305026009471	CMakeFiles/codeforce.dir/581A_Vasya_the_Hipster_cpp/main.cpp.o	15e856166e65c2a7
+625	726	1641085305129934637	codeforce	2da00377b22a06ec
