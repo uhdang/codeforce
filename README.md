@@ -1,13 +1,25 @@
-# 
+# Codeforace
 
-When coding or debugging, try not to fall into a habit of "trying" things out and hope it works. Try to be as systematic and rigorous as possible. Avoid "trial-and-error" approach.
+## Starred Question
+- 189A_Cut_Ribbon:
+  - Sorting
+  - Accepted after 9 attempts
 
-Attendance check
 
-C++
+# Software Engineering
 
-Python
+NOTE: When coding or debugging, try not to fall into a habit of "trying" things out and hope it works. Try to be as systematic and rigorous as possible. Avoid "trial-and-error" approach.
 
-# Compilation command (using c++17)
+# C++
 
+## Compilation command (using c++17)
 $ g++ -std=c++17 [CPP FILENAME]
+
+## Snippets
+- Receive two variables from one-line.
+```c++
+int a, b;
+std::cin >> a >> b;
+```
+
+
