@@ -1,9 +1,7 @@
 # Codeforace
 
 ## Starred Question
-- 189A_Cut_Ribbon:
-  - Sorting
-  - Accepted after 9 attempts
+- 189A_Cut_Ribbon: #Sorting, #Accepted after 9 attempts, #Learnings
 
 
 # Software Engineering
@@ -25,4 +23,5 @@ int a, b;
 std::cin >> a >> b;
 ```
 
-
+## Reference
+- 187A

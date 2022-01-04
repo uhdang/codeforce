@@ -1,14 +1,11 @@
 # ninja log v5
 3	718	1641228737947647826	CMakeFiles/codeforce.dir/189A_Cut_Ribbon_cpp/main.cpp.o	93801a49d29de235
-516	584	1641243988421319242	codeforce	9c23f4662f9ad189
-3	516	1641243988351617924	CMakeFiles/codeforce.dir/189A_Cut_Ribbon_cpp/others.cpp.o	64a291aed1166053
-0	1126	1641245561941352542	CMakeFiles/codeforce.dir/189A_Cut_Ribbon_cpp/main_two.cpp.o	51292acef523ad11
-1127	1256	1641245562075074777	codeforce	7a9b445002684a32
-3	511	1641245594001285705	CMakeFiles/codeforce.dir/189A_Cut_Ribbon_cpp/main_two.cpp.o	51292acef523ad11
-511	583	1641245594076013952	codeforce	7a9b445002684a32
-2	512	1641245929472994059	CMakeFiles/codeforce.dir/189A_Cut_Ribbon_cpp/main_two.cpp.o	51292acef523ad11
-512	583	1641245929545847190	codeforce	7a9b445002684a32
-3	1165	1641247138883852522	CMakeFiles/codeforce.dir/189A_Cut_Ribbon_cpp/main_two.cpp.o	51292acef523ad11
-1165	1283	1641247139007446876	codeforce	7a9b445002684a32
-3	631	1641247275929898239	CMakeFiles/codeforce.dir/189A_Cut_Ribbon_cpp/main_two.cpp.o	51292acef523ad11
 631	716	1641247276016910377	codeforce	7a9b445002684a32
+3	516	1641243988351617924	CMakeFiles/codeforce.dir/189A_Cut_Ribbon_cpp/others.cpp.o	64a291aed1166053
+3	631	1641247275929898239	CMakeFiles/codeforce.dir/189A_Cut_Ribbon_cpp/main_two.cpp.o	51292acef523ad11
+1	1276	1641333694405093791	CMakeFiles/codeforce.dir/427A_Police_Recruits/main.cpp.o	d76f4732b580ab9d
+1277	1405	1641333694539011579	codeforce	a64c57871cbab243
+3	651	1641333847513800152	CMakeFiles/codeforce.dir/427A_Police_Recruits/main.cpp.o	d76f4732b580ab9d
+651	727	1641333847592739722	codeforce	a64c57871cbab243
+3	559	1641333947439943567	CMakeFiles/codeforce.dir/427A_Police_Recruits/main.cpp.o	d76f4732b580ab9d
+559	626	1641333947507936295	codeforce	a64c57871cbab243
