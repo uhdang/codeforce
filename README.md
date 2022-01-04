@@ -25,3 +25,4 @@ std::cin >> a >> b;
 
 ## Reference
 - 187A
+- 427A: `cin >>` in for loop.
