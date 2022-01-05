@@ -81,6 +81,7 @@ add_executable(codeforce
 #        750A_New_Year_and_Hurry_cpp/main.cpp
 #        581A_Vasya_the_Hipster_cpp/main.cpp
 #        189A_Cut_Ribbon_cpp/main_two.cpp
-        427A_Police_Recruits/main.cpp
+#        427A_Police_Recruits/main.cpp
+        1399A_Remove_Smallest/main.cpp
 
         )
