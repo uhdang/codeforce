@@ -31,15 +31,4 @@ int main() {
         }
 
         std::cout << output << "\n";
-
-//        outputArray.push_back(output);
-
-
-
-//        outputArray[i] = output;
-    }
-
-//    for (int i = 0; i < outputArray.size(); i++) {
-//        std::cout << outputArray.at(i);
-//    }
 }
